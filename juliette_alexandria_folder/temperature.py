@@ -3,6 +3,7 @@
 celsius_100 = (100-32)*(5/9)
 #printing results of conversion 1
 print (celsius_100)
+print (type(celsius_100))
 
 #updating variable for converting 0 degrees farenheit
 celsius_100 = (0-32)*(5/9)
