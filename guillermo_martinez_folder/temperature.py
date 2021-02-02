@@ -19,4 +19,4 @@ print((9/5 * 5 )+ 32)
 ''' trying to find out what's hotter. 30.2 C or 85.1 F'''
 print((85.1-32)*(5/9)
 
-''' 30.2 C is hotter than 85.1 F'''
+''' 30.2 C is hotter than 85.1 '''
