@@ -7,8 +7,8 @@ print(celsius_100)
 celsius_0 = (0-32) * 5/9
 print(celsius_0)
 
-#converting a temperature of 34.3 degrees to fahrenhiet to celsius without saving variables 
-print(int(((34.2 -32) * 5/9)))
+#converting a temperature of 34.2 degrees to fahrenhiet to celsius without saving variables 
+print(((34.2 -32) * 5/9))
 
 #converting temperature of 5 degrees celsius to fahrenheit
 celsius_5 = (((5 *1.8) + 32))
