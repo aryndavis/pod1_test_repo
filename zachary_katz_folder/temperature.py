@@ -38,4 +38,4 @@ f_30_point_2 = (30.2*9/5)+32
 print(f_30_point_2)
 
 # Entering the value comparison
-print(f'30.2 degrees celsius is equal to {f_30_point_2} degrees fahrenheit, so it hotter than 85.1 degrees fahrenheit!')
+print(f'30.2 degrees celsius is equal to {f_30_point_2} degrees fahrenheit, which is hotter than 85.1 degrees fahrenheit!')
