@@ -18,4 +18,5 @@ print(celsius_5)
 celsius_32 = (((32 *1.8) + 32))
 print(celsius_32)
 
+#Celsius or Temperature is hotter by comparison?
 print("32 degree celsius is hotter than 85.1 degrees fahrenheit")
