@@ -18,4 +18,4 @@ print(celsius_5)
 celsius_32 = (((32 *1.8) + 32))
 print(celsius_32)
 
-# 32 degree celsius is hotter than 85.1 degrees fahrenheit
+print("32 degree celsius is hotter than 85.1 degrees fahrenheit")
