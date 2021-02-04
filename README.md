@@ -39,8 +39,8 @@ For example: `serena-temperature`
 - `git push` --> push it to the repo
 
 - Now go to https://github.com/aryndavis/pod1_test_repo and find the button to create a pull request.
-- Make sure your base is **your pod's repo** (for example: `pod1_test_repo`) and **not** `Justice-Through_Code/pod_test_repo`
-- Give a short description of your code and any questions you might have 
+- Make sure your base is `aryndavis/pod1_test_repo`
+- Give a short summary of what you are commiting
 - Create Pull Request
 
 Your T.A will review your pull request, make any comments, and merge into the pod repo!
