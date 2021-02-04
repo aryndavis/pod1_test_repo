@@ -23,7 +23,7 @@ create your own branch. a good branch name is something like this: `aryn-logic`
 - `git commit -m "YOUR_COMMIT_MESSAGE"` --> commit file to git
 - `git push` --> push it to the repo
 
-- Now go to https://github.com/s-ruby/pod5_repo and find the button to create a pull request.
+- Now go to https://github.com/aryndavis/pod1_test_repo and find the button to create a pull request.
 - Make sure your base is `aryndavis/pod1_test_repo`
 - Give a short summary of what you are commiting
 - Create Pull Request
