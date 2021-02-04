@@ -81,7 +81,11 @@ print('Challenge 3.5: Type Conversion Part 2')
 # TODO: Take each player's three point percentage (from part 2.5) and convert it to a string, then print it out.
 
 print(str(jamal_murray_3pts_made / jamal_3pt_attempts))
+print(str(fred_vanvleet_3pts_made / fred_3pt_attempts))
+print(str(james_harden_3pts_made/ james_3pt_attempts))
 
 # TODO: Take each player's three point percentage (from part 2.5) and convert it to an integer, then print it out.
 
 print(int(jamal_murray_3pts_made / jamal_3pt_attempts))
+print(int(james_harden_3pts_made/ james_3pt_attempts))
+print(int(fred_vanvleet_3pts_made / fred_3pt_attempts))
