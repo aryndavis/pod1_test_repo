@@ -28,4 +28,5 @@ create your own branch. a good branch name is something like this: `aryn-logic`
 - Give a short summary of what you are commiting
 - Create Pull Request
 
-Credit to Serena for this handy guide!
+
+**Credit to Serena for this handy guide!**
