@@ -12,21 +12,35 @@ Here is the repository where we will be practicing how to collaborate as a team 
 When you pull, you will get all the new files and changes made by our pod. 
 You will also be able to find the class challenges in the challenge folder.
 
+# Make a copy of the challenge file
+
+If there is a prewritten python file for the challenge, make a copy of it into your folder like this:
+
+From inside the folder where the challenge file is:
+
+`cp [FILE NAME TO COPY] [DESTINATION OF COPY]`
+
+`cp temperature.py ../../serena_killion_folder`
+
 
 # To do after you complete your challenge:
 
-create your own branch. a good branch name is something like this: `aryn-logic`
-- `git checkout -b [YOUR_BRANCH_NAME]` --> `git checkout -b aryn-logic`
+**Please do not push on main!**
+
+Create your own branch. A good branch name should describe be description.
+for our purposes, using your name and the challenge name is sufficient. 
+For example: `serena-temperature`
+
+- `git checkout -b [YOUR_BRANCH_NAME]` --> `git checkout -b serena-temperature`
 
 - `git status` -> check for new or modified files
 - `git add [FILE NAME]` --> add file so git will track it
 - `git commit -m "YOUR_COMMIT_MESSAGE"` --> commit file to git
 - `git push` --> push it to the repo
 
-- Now go to https://github.com/s-ruby/pod5_repo and find the button to create a pull request.
-- Make sure your base is `aryndavis/pod1_test_repo`
-- Give a short summary of what you are commiting
+- Now go to https://github.com/aryndavis/pod1_test_repo and find the button to create a pull request.
+- Make sure your base is **your pod's repo** (for example: `pod1_test_repo`) and **not** `Justice-Through_Code/pod_test_repo`
+- Give a short description of your code and any questions you might have 
 - Create Pull Request
 
-
-**Credit to Serena for this handy guide!**
+Your T.A will review your pull request, make any comments, and merge into the pod repo!
