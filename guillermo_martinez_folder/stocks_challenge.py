@@ -44,7 +44,7 @@ if stock == "amzn":
     price = amazon
     num_of_stocks = (savings // price)
 elif stock == "aapl":
-    price = Apple
+    price = apple
     num_of_stocks = (savings // price)
 elif stock == "fb":
     price = fb
