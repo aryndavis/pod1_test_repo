@@ -11,10 +11,11 @@ msft = 200
 
 # print("Challenge 3.2.1: Taking user input")
 # TODO: Write code to ask the client his name and save it to a variable.
-name = input("What's your name?")
+name = input("What's your name?")  
 # TODO: Write code to ask the client his savings and save it to another variable.
 
 savings = int(input("How much savings you got Brokey?"))
+
 # TODO: Write code to ask the client the stock he is interested in and save it to another variable, as shown below.
 stock = input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft.")
 
@@ -41,7 +42,7 @@ else ...
 # num_of_stocks = 0
 if stock == "amzn":
     price = amazon
-    num_of_stocks = (savings//price)
+    num_of_stocks = (savings // price)
 elif stock == "aapl":
     price = Apple
     num_of_stocks = (savings // price)
@@ -55,9 +56,11 @@ elif stock == "msft":
     price = msft 
     num_of_stocks = (savings // price)
 else:
-    print(not applicable)
+    print("Try Again")
 
 print(f"{name} has {savings} in savings and he can buy {num_of_stocks} shares of {stock} at the current price of {price}.")
+
+# Making this comment to repush ..... again lol 
     
 
 
