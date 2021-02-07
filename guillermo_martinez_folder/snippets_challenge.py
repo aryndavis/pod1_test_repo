@@ -51,9 +51,9 @@ print("Code Snippet 4:")
 
 #modify exactly one boolean operator in the assignment of d, so that d evaluates to False
 
-d = (5 > 7) or not (8 < 20)
+d = (5 > 7) and not (8 < 20)
 # TO DO: Explain how d is set to False in a print statement
-print(f"The formula will come up false because 5 is not greater than 7 ({5 > 7}) and not reverses the true operator in ({not 8 < 20}) making both false")
+print(f"The formula will come up false because 5 is not greater than 7 ({5 > 7}) and not reverses the true operator in ({not 8 < 20}) making both f")
 assert(d == False) #Do not change this line
 
 # print()
@@ -72,5 +72,5 @@ o = (m != n)
 print (f"The value of o ({o}) is True since Python is case-sensitive.")
 assert(o == True) #Do not change this line 
 
-print()
+# print()
 print("CHALLENGE COMPLETE!")
