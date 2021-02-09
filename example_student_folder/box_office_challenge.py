@@ -51,3 +51,5 @@ print()
 top_100_str = (', '.join(top_100))
 print(top_100_str)
 print()
+
+print("Challenge is done")
