@@ -42,3 +42,5 @@ print(top_100[0:10])
 top_100_str = (", ".join(top_100))
 # Note: Print your new variable to see the string version of the movies
 print(top_100_str)
+
+print("Challenge done")
