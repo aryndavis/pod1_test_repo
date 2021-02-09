@@ -40,9 +40,9 @@ print("Code Snippet 3:")
 
 a = 1
 b = 1
-c = (a == b)
+c = (a >= b)
 
-print(f"The value of c ({c}) is True since a ({a}) is equal to b ({b}).")
+print(f"The value of c ({c}) is True since a ({a}) is greater than b ({b}).")
 assert(c == True) #Do not change this line
 
 print()
@@ -51,8 +51,9 @@ print("Code Snippet 4:")
 
 #modify exactly one boolean operator in the assignment of d, so that d evaluates to False
 
-d = (5 > 7) or not (8 < 20)
+d = (5 < 7) and not (8 < 20)
 # TO DO: Explain how d is set to False in a print statement
+print(f"The value of d ({d}) is False only if both conditions are not met with the 'and' operator.")
 assert(d == False) #Do not change this line
 
 print()
