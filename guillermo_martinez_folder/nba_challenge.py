@@ -33,7 +33,7 @@ print(f"In the 2020 NBA playoffs, Fred Vanvleet made {VanVleet_3pts_made} 3 poin
 print(f"In the 2020 NBA playoffs, James Harden made {Harden_3pts_made} 3 point shots and made {Harden_3pts_attempts} attempts.")
 # the number of three point shots for each player. E.g., output should be similar to
 # "In the 2020 NBA playoffs, player X made Y 3 point shots and Z 3 point shot attempts."
-
+print()
 
 print("Challenge 2.5: Calculate, store, and print the three point percentage for each player")
 # TODO: Calculate the three point percentage, which is given by `three points made/three point attempts`
