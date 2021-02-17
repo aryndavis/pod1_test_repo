@@ -31,6 +31,7 @@ print('Question 2')
 sandwiches = []
 for meat in meats:
     for cheese in cheeses:
+        # Must concatenate strings, or else the input will not be read
         combo = meat + ", " + cheese
         sandwiches.append(combo)
 print(sandwiches)
@@ -55,5 +56,7 @@ for sandwich in sandwiches:
         break
 if not s:
     print("We no have dat")
+
+#Final version
 
 
