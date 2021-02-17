@@ -6,6 +6,8 @@ cheeses = ['cheddar', 'swiss', 'pepper jack', 'provolone']
 
 # You want to create a menu soon, but first things first...
 # TODO: Let's capitalize the first letter of each word in each list using .capitalize()
+
+#Found this really cool simplification of calling a function within a list!
 meats = [meat.capitalize() for meat in meats]
 print(meats)
 print()
@@ -20,10 +22,12 @@ print()
 print('Question 2')
 # Great! Your lists look much better. You need to come up with every combination of meats and cheeses for your menu.
 # TODO: Use nested loops to create every combination of meat and cheese and add it to the sandwiches list
+
+# Was difficult for me to do without the combo variable.. 
 sandwiches = []
 for meat in meats:
     for cheese in cheeses:
-        combo = [meat, cheese]
+        combo = meat, cheese
         sandwiches.append(combo)
     print(sandwiches)
 
@@ -37,11 +41,14 @@ print('Question 3')
 # TODO: Loop over the sandwiches list.
 # TODO: If it exists, print 'Great choice! 1 Ham & Swiss coming right up!'
 
+
 order = input("What kind of sandwich would you like?:")
 for sandwich in sandwiches:
-    if order == combo:
+    if order == sandwich:
         print()
     print(f'Great choice! 1 {order} coming right up!')
     break
 else:
     print("We no have dat")
+
+
