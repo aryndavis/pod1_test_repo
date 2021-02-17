@@ -15,6 +15,10 @@ cheeses = [cheese.capitalize() for cheese in cheeses]
 print(cheeses)
 print()
 
+# for i in range(len(meats))
+#     meats[i] = meats[i].capitalize()
+# print(meats)
+
 
 
 
@@ -27,9 +31,9 @@ print('Question 2')
 sandwiches = []
 for meat in meats:
     for cheese in cheeses:
-        combo = meat, cheese
+        combo = meat + ", " + cheese
         sandwiches.append(combo)
-    print(sandwiches)
+print(sandwiches)
 
 
    
@@ -41,14 +45,15 @@ print('Question 3')
 # TODO: Loop over the sandwiches list.
 # TODO: If it exists, print 'Great choice! 1 Ham & Swiss coming right up!'
 
-
+s = False
 order = input("What kind of sandwich would you like?:")
 for sandwich in sandwiches:
     if order == sandwich:
+        s = True
         print()
-    print(f'Great choice! 1 {order} coming right up!')
-    break
-else:
+        print(f'Great choice! 1 {order} coming right up!')
+        break
+if not s:
     print("We no have dat")
 
 
