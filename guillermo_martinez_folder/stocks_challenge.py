@@ -8,16 +8,16 @@ apple = 100
 fb = 250
 google = 1400
 msft = 200
-
-# print("Challenge 3.2.1: Taking user input")
-# TODO: Write code to ask the client his name and save it to a variable.
-name = input("What's your name?")  
+print()
+name = input("What's your name Bitch Boy?")  
+print()
 # TODO: Write code to ask the client his savings and save it to another variable.
+savings = int(input('How much savings do you have Lil Brokey?'))
 
-savings = int(input("How much savings you got Brokey?"))
+
 
 # TODO: Write code to ask the client the stock he is interested in and save it to another variable, as shown below.
-stock = input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft.")
+stock = (input("Which stock are you interested in? Type 'amzn' for Amazon, 'aapl' for Apple, 'fb' for Facebook, 'goog' for Google and 'msft' for Microsoft."))
 
 
 # print("Challenge 3.2.2: Perform user-specific calculations")
