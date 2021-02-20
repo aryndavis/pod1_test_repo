@@ -8,32 +8,48 @@ top_50_list = ['Star Wars: Episode I - The Phantom Menace', 'The Sixth Sense', '
 
 # TODO: Take the string "movies_str" and convert it into a list and assign it to a variable called "remaining_50_list"
 # Note: Print your new variable to see the list of movies
+remaining_50_list = movies_str.split(',')
+print(remaining_50_list)
 print()
 
 # TODO: Hmm. Looks like "remaining_50_list" contains the movie "The Matrix" which is also in the "top_50_list". Let's remove this duplicate title from "remaining_50_list".
 # Note: Make sure to double check the list you are removing from!
+remaining_50_list.remove("The Matrix")
+print(remaining_50_list)
 print()
 
 
 # TODO: We're down to 49 movies in "remaining_50_list". Let's add a movie to the list called "Anywhere But Here"
 # Note: Print the variable "remaining_50_list" and see if the movie has been added!
+remaining_50_list.append('Anywhere But Here')
+print(remaining_50_list)
 print()
 
 
 # TODO: Let's make sure "remaining_50_list" has exactly 50 movie titles
+print(len(remaining_50_list))
+# OR
+assert(len(remaining_50_list)==50)
 print()
 
-# TODO: Great! Let's join the two lists into one list called "top_100". 
-
+# TODO: Great! Let's join the two lists into one list called "top_100". Uncomment the line of code below and run your code to see how it's done!
 # Note: Print your new variable to see the combined list of movies
+top_100 = remaining_50_list + top_50_list
+print(top_100)
 print()
 
 # TODO: Let's print the first movie in our "top_100" list. Let's use the index lookup method to do this.
+print(top_100[0])
 print()
 
 # TODO: Let's print the top 10 movies in "top_100" as a list. Let's use the slice syntax to accomplish this!
+print(top_100[0:10])
 print()
 
 # TODO: Let's convert the list "top_100" back into a string. Assign it to a variable called "top_100_str".
 # Note: Print your new variable to see the string version of the movies
+top_100_str = (', '.join(top_100))
+print(top_100_str)
 print()
+
+print("Challenge is done")
