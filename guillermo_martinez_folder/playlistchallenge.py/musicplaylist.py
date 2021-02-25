@@ -78,3 +78,5 @@ get_playlist_length(my_playlist)
 # # Then play a few tracks, and run display_playlist() again to make sure it works
 
 play_track(my_playlist, 3)
+
+# Finished
