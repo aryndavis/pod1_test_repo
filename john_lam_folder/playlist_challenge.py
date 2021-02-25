@@ -71,3 +71,6 @@ print(np.mean(monthly_plays))
 print('BONUS')
 
 print(play_track(my_playlist, 0))
+print(play_track(my_playlist, 1))
+
+display_playlist(my_playlist)

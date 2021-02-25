@@ -42,9 +42,10 @@ So, if 'Controversy' has 0 plays so far, it should now be increased to 1
 
 def play_track(playlist,track):
 
+    p = playlist[track]["plays"] = + 1
     x = playlist[track]["artist"]
     y = playlist[track]["title"]
-    z = (f"Now playing track {track}, {y} by {x}")
+    z = (f"Now playing track {track}, {y} by {x}, this song has {p} plays")
 
     return z
     
