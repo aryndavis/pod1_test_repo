@@ -17,7 +17,7 @@ You are building a system to handle shipping orders. Each order should have 3 pi
 
 Will you choose to make each shipping order as a dictionary or list? Why?
 
-I would choose a list, because I am printing out the entirety of the list with no need to access keys.
+I would choose a dictionary to later access information through keys rather than memorizing my indexes
 
 Assign 3 separate orders to 3 separate variables
 
