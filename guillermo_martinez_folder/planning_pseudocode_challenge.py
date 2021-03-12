@@ -59,7 +59,7 @@ def add_order(new_order):
     database.append(new_order)
     print(database)
 
-add_order(['Maine', '05/11/2020', 6.2])
+add_order({'Location': 'Maine', 'Date': '05/11/2020', 'Weight': 6.2})
     
     
 '''
