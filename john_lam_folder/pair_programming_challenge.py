@@ -106,18 +106,41 @@ Test out your new functions to make sure they accept correct info, and let the u
 # HINT: you can write any additional functions if you like
 
 def deposit_secure(username):
+    logged_in = False
+    while logged_in == False:
+        print("Checking password:")
+        input_user_name = input("Whats your user name? ")
+        input_password = input("Whats your password? ")
+        username["user_name"] = input_user_name
+        username["user_password"] = input_password
 
-    input_user_name = input("Whats your user name?")
-    input_password = input("Whats your password?")
-    username["user_name"] = input_user_name
-    username["user_password"] = input_password
+        if username["user_name"] == "Hot Dog" and username["user_password"] == "Ketchup":
+            logged_in = True
+            print("Congratulations, your in Corn Doggie")
+        else:
+            print("Wrong password")
 
-
-    if username["user_name"] == "Hot Dog" and username["user_password"] == "Ketchup":
-        print("Congratulations, your in Corn Doggie")
+def deposit_money(account, amount):
+    deposit_secure(account)
+    account["balance"] += amount
+    
+def withdrawl(account, amount):
+    deposit_secure(account)
+    if account["balance"] > 0 and account["balance"] > amount : 
+        account["balance"] -= amount
+        return
+    elif account["balance"] < amount:
+        print("you have insufficient fund for this amount of withdrawal")  
     else:
-        print("Wrong password")
+        print("Have a nice day!")
 
-print(deposit_secure(random_account))
+deposit_money(random_account, 50)
+
+print(random_account)
+
+withdrawl(random_account, 30)
+
+print(random_account)
+
 
 
